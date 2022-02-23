@@ -1,5 +1,5 @@
 # Weather App
 
-[x] Weather
-[x] Day
-[x] Location
+- [x] Weather
+- [x] Day
+- [x] Location
