@@ -22,7 +22,7 @@ import { Fontisto } from "@expo/vector-icons";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window"); //스크린의 가로길이를 가져와줌
 
-const API_KEY = "d892b91002eabd160955c7e8ede6566d"; //원래는 서버에 넣어둬야 함 지금은 실습하려고 여기넣음
+const API_KEY = process.env.API_KEY; //원래는 서버에 넣어둬야 함 지금은 실습하려고 여기넣음
 
 const icons = {
   Clouds: "cloudy",
